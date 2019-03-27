@@ -14,6 +14,8 @@
 		1F8FF8CC2226271C009BCD05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8FF8CB2226271C009BCD05 /* Assets.xcassets */; };
 		1F8FF8CF2226271C009BCD05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8FF8CD2226271C009BCD05 /* LaunchScreen.storyboard */; };
 		1F8FF8DA2226271C009BCD05 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FF8D92226271C009BCD05 /* FoodTrackerTests.swift */; };
+		1FB7A5BF224B13120083F5D8 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB7A5BE224B13120083F5D8 /* MealTableViewCell.swift */; };
+		1FB7A5C1224B179C0083F5D8 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB7A5C0224B179C0083F5D8 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		1F8FF8D52226271C009BCD05 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8FF8D92226271C009BCD05 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		1F8FF8DB2226271C009BCD05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB7A5BE224B13120083F5D8 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		1FB7A5C0224B179C0083F5D8 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,9 @@
 			children = (
 				1F8FF8C42226271B009BCD05 /* AppDelegate.swift */,
 				1F8FF8C62226271B009BCD05 /* ViewController.swift */,
+				1FB7A5C0224B179C0083F5D8 /* RatingControl.swift */,
 				1F55590D2247C968005EC35A /* Meal.swift */,
+				1FB7A5BE224B13120083F5D8 /* MealTableViewCell.swift */,
 				1F8FF8C82226271B009BCD05 /* Main.storyboard */,
 				1F8FF8CB2226271C009BCD05 /* Assets.xcassets */,
 				1F8FF8CD2226271C009BCD05 /* LaunchScreen.storyboard */,
@@ -149,9 +155,11 @@
 				TargetAttributes = {
 					1F8FF8C02226271B009BCD05 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					1F8FF8D42226271C009BCD05 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 1F8FF8C02226271B009BCD05;
 					};
 				};
@@ -200,8 +208,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB7A5BF224B13120083F5D8 /* MealTableViewCell.swift in Sources */,
 				1F8FF8C72226271B009BCD05 /* ViewController.swift in Sources */,
 				1F55590E2247C968005EC35A /* Meal.swift in Sources */,
+				1FB7A5C1224B179C0083F5D8 /* RatingControl.swift in Sources */,
 				1F8FF8C52226271B009BCD05 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,7 +382,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.katherinemclellan.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -389,7 +399,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.katherinemclellan.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -408,7 +418,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.katherinemclellan.FoodTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTracker.app/FoodTracker";
 			};
@@ -428,7 +438,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.katherinemclellan.FoodTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTracker.app/FoodTracker";
 			};
