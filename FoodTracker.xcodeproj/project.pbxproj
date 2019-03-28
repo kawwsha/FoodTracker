@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1F55590E2247C968005EC35A /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F55590D2247C968005EC35A /* Meal.swift */; };
+		1F587AAE224C6C030017EF18 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F587AAD224C6C030017EF18 /* MealTableViewController.swift */; };
 		1F8FF8C52226271B009BCD05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FF8C42226271B009BCD05 /* AppDelegate.swift */; };
-		1F8FF8C72226271B009BCD05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FF8C62226271B009BCD05 /* ViewController.swift */; };
+		1F8FF8C72226271B009BCD05 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FF8C62226271B009BCD05 /* MealViewController.swift */; };
 		1F8FF8CA2226271B009BCD05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8FF8C82226271B009BCD05 /* Main.storyboard */; };
 		1F8FF8CC2226271C009BCD05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8FF8CB2226271C009BCD05 /* Assets.xcassets */; };
 		1F8FF8CF2226271C009BCD05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8FF8CD2226271C009BCD05 /* LaunchScreen.storyboard */; };
@@ -30,9 +31,10 @@
 
 /* Begin PBXFileReference section */
 		1F55590D2247C968005EC35A /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		1F587AAD224C6C030017EF18 /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		1F8FF8C12226271B009BCD05 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8FF8C42226271B009BCD05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F8FF8C62226271B009BCD05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F8FF8C62226271B009BCD05 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		1F8FF8C92226271B009BCD05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F8FF8CB2226271C009BCD05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F8FF8CE2226271C009BCD05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -84,10 +86,11 @@
 			isa = PBXGroup;
 			children = (
 				1F8FF8C42226271B009BCD05 /* AppDelegate.swift */,
-				1F8FF8C62226271B009BCD05 /* ViewController.swift */,
+				1F8FF8C62226271B009BCD05 /* MealViewController.swift */,
 				1FB7A5C0224B179C0083F5D8 /* RatingControl.swift */,
 				1F55590D2247C968005EC35A /* Meal.swift */,
 				1FB7A5BE224B13120083F5D8 /* MealTableViewCell.swift */,
+				1F587AAD224C6C030017EF18 /* MealTableViewController.swift */,
 				1F8FF8C82226271B009BCD05 /* Main.storyboard */,
 				1F8FF8CB2226271C009BCD05 /* Assets.xcassets */,
 				1F8FF8CD2226271C009BCD05 /* LaunchScreen.storyboard */,
@@ -209,9 +212,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FB7A5BF224B13120083F5D8 /* MealTableViewCell.swift in Sources */,
-				1F8FF8C72226271B009BCD05 /* ViewController.swift in Sources */,
+				1F8FF8C72226271B009BCD05 /* MealViewController.swift in Sources */,
 				1F55590E2247C968005EC35A /* Meal.swift in Sources */,
 				1FB7A5C1224B179C0083F5D8 /* RatingControl.swift in Sources */,
+				1F587AAE224C6C030017EF18 /* MealTableViewController.swift in Sources */,
 				1F8FF8C52226271B009BCD05 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
